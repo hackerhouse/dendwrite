@@ -1,0 +1,27 @@
+{
+    "name": "Dendwrite",
+    "version": "0.3.179",
+    "manifest_version": 2,
+    "description": "An application for sharing media with your fellow hackers",
+    "background": {
+        "scripts": [
+            "scripts/jquery.min.js",
+            "../dist/scripts/initialization.js",
+            "scripts/oauth2/chrome_ex_oauthsimple.js",
+            "scripts/oauth2/chrome_ex_oauth.js",
+            "scripts/authentication.js",
+            "scripts/background.js"
+        ]
+    },
+    "browser_action": {
+        "default_title": "Dendwrite",
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "tabs",
+        "unlimitedStorage",
+        "http://*/*",
+        "https://*/*"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "hostname": "localhost",
+  "port": 4000,
+  "auth": {
+    "google": {
+      "clientID": "775230945625.apps.googleusercontent.com",
+      "email_address": "775230945625@developer.gserviceaccount.com",
+      "clientSecret": "VV_pqgqzvW3t13iwqE2bIorf"
+    }
+  }
+}

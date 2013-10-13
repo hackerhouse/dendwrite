@@ -1,0 +1,42 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+html {
+    /* Defaults css for cssmin process */
+    h3 {
+      color: #e45735;
+      font-size: 20px;
+      text-align: center;
+      font-family: sans-serif;
+    }
+
+    button.authorized { background: green }
+
+    .btn {
+      margin: 5px;
+      min-width: 180px;
+      display: inline-block;
+      outline: 0;
+      padding: 6px 12px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 4px;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      color: #FFF;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .btn:hover {
+      box-shadow: none;
+    }
+
+    #google {
+      background: #5B76F7;
+    }
+
+    #github {
+      background: #6d6d6d;
+    }
+}
