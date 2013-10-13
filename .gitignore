@@ -1,0 +1,32 @@
+# Default nodeJS gitignore
+# Source: https://github.com/github/gitignore/blob/master/Node.gitignore
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
+
+# Extra ignores
+components
+bower_components/
+.DS_Store
+
+# Chrome ignores
+extensions/chrome/node_modules
+extensions/chrome/temp
+extensions/chrome/.tmp
+extensions/chrome/dist
+extensions/chrome/.sass-cache
+extensions/chrome/app/bower_components
+extensions/chrome/test/bower_components
+extensions/chrome/package
